@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Learnning JS</title>
+    </head>
+    <body>
+<script type="text/javascript">
+    let age = prompt("Привіт, скільки тобі років?");
+    if (isNaN(age)) {console.log (`Number should be entered`)}
+    else if (age == 1) {console.log (age + ` рік`)}
+    else if (age == 11 || age == 12 ||  age == 13 ||  age == 14 || age %100 == 11 ||  age %100 == 12 ||  age %100 == 13 ||  age %100 == 14) 
+    {console.log (age + ` років`)}
+    else if (age %10 == 1 ||age %100 ==1 ) 
+    {console.log (age + ` рік`)}
+    else if (age == 2 ||age == 3 ||age == 4 || age %10 == 2 ||age %10 == 3 ||age %10 == 4) 
+    {console.log (age + ` роки`)}
+    else if (age == 0 || age < 0 ) 
+    {console.log (`Age cannot be 0 or negative`)}
+    else if (age == ``) 
+    {console.log (`value can not be empty`)}
+    else {console.log (age + ' років')}
+
+</script>
+</body>
+</html>
